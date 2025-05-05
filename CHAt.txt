@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Czat</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: rgba(0, 0, 0, 0); /* przezroczyste tło */
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    #chat-box {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .message {
+      margin-bottom: 10px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 8px 12px;
+      border-radius: 10px;
+      max-width: 80%;
+      word-wrap: break-word;
+    }
+
+    .username {
+      font-weight: bold;
+      color: #00f0ff;
+    }
+
+    .text {
+      display: block;
+      margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat-box">
+    <div class="message">
+      <span class="username">@adam:</span>
+      <span class="text">Siema, jak tam stream?</span>
+    </div>
+    <div class="message">
+      <span class="username">@ola_gaming:</span>
+      <span class="text">Ale akcja! 🔥</span>
+    </div>
+    <div class="message">
+      <span class="username">@guest123:</span>
+      <span class="text">To jest czad 😄</span>
+    </div>
+  </div>
+</body>
+</html>
